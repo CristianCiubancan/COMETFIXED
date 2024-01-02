@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StrAccessDenied" xml:space="preserve">
+    <value>Acesso negado! Verifique se o seu anti-virus ou Windows Defender não estão bloqueando o programa, ou se o programa está sendo executado como Administrador.</value>
+  </data>
+  <data name="StrAccessDeniedEx" xml:space="preserve">
+    <value>Acesso negado! Verifique se o seu anti-virus ou Windows Defender não estão bloqueando o programa, ou se o programa está sendo executado como Administrador. Erro: {0}</value>
+  </data>
+  <data name="StrAttemptingConnection" xml:space="preserve">
+    <value>Aguardando conexão com o servidor...</value>
+  </data>
+  <data name="StrBetaMessage" xml:space="preserve">
+    <value>Muito obrigado por participar de nosso Alpha Fechado. Por favor, considere não compartilhar screenshots, vídeos ou detalhes do servidor durante esta etapa de testes inicial. Nossos sistemas e história estão em construção e constante mudança baseado em seu feedback. Portanto, por favor nos envie suas ideias e reporte os bugs que você encontrar. Obrigado e divirta-se!</value>
+  </data>
+  <data name="StrBetaTitle" xml:space="preserve">
+    <value>Seja bem-vindo ao Beta</value>
+  </data>
+  <data name="StrCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="StrClientAlreadyConnected" xml:space="preserve">
+    <value>Há um cliente registrado com esse mesmo nome em sua rede ou você tentou abrir duas instâncias do atualizador.</value>
+  </data>
+  <data name="StrClientSettingsNotLoaded" xml:space="preserve">
+    <value>Não foi encontrado o arquivo de configuração do cliente. Acesse a página de download em nosso site para baixar a versão mais atualizada do Launcher novamente.</value>
+  </data>
+  <data name="StrCloseMessage" xml:space="preserve">
+    <value>Atenção! Você não poderá se conectar aos nossos servidores se o nosso Launcher estiver fechado. Tem certeza de que deseja continuar?</value>
+  </data>
+  <data name="StrCloseMessageClientOpen" xml:space="preserve">
+    <value>Atenção! Você possui clientes abertos e estes serão fechados e desconectados caso você feche o nosso Launcher. Tem certeza de que deseja continuar?</value>
+  </data>
+  <data name="StrCloseTitle" xml:space="preserve">
+    <value>Deseja fechar?</value>
+  </data>
+  <data name="StrCometUpdaterBaloonInitMsg" xml:space="preserve">
+    <value>O Launcher está mantendo seu cliente seguro. Clique para suprimir esta mensagem no futuro.</value>
+  </data>
+  <data name="StrCometUpdaterBaloonInitTitle" xml:space="preserve">
+    <value>World Conquer Online</value>
+  </data>
+  <data name="StrCometUpdaterBaloonMinimizeMsg" xml:space="preserve">
+    <value>O Launcher continuará rodando na bandeja do sistema. Clique aqui caso deseje que esta mensagem não apareça novamente.</value>
+  </data>
+  <data name="StrConnectedToServer" xml:space="preserve">
+    <value>Conexão estabelecida com o servidor. Por favor, aguarde...</value>
+  </data>
+  <data name="StrCouldNotConnect" xml:space="preserve">
+    <value>Não foi possível conectar ao servidor!</value>
+  </data>
+  <data name="StrCouldNotLoadConfigFile" xml:space="preserve">
+    <value>Não foi possível carregar o arquivo de configuração. Por favor, certifique-se de estar rodando o software com permissões de administrador ou que haja permissão de leitura e gravação na pasta de destino.</value>
+  </data>
+  <data name="StrDisconnected" xml:space="preserve">
+    <value>Desconectado</value>
+  </data>
+  <data name="StrDisconnectedFromServer" xml:space="preserve">
+    <value>Você foi desconectado do servidor. Sua permissão de login foi revogada e suas contas serão desconectadas.</value>
+  </data>
+  <data name="StrDisplayPing" xml:space="preserve">
+    <value>Ping: {0:N0}ms</value>
+  </data>
+  <data name="StrDuplicatedLoginAttempt" xml:space="preserve">
+    <value>Alguém está tentando se conectar com a mesma identidade deste cliente.</value>
+  </data>
+  <data name="StrExtractionError" xml:space="preserve">
+    <value>Houve um erro ao extrair a atualização. Por favor, verificar os logs.</value>
+  </data>
+  <data name="StrFailedToFetchFile" xml:space="preserve">
+    <value>Não foi possível encontrar o arquivo '{0}' para download. Não é possível prosseguir com a atualização. Por favor, notifique um administrador.</value>
+  </data>
+  <data name="StrFeedbackLink" xml:space="preserve">
+    <value>Enviar Feedback</value>
+  </data>
+  <data name="StrFetchingUpdates" xml:space="preserve">
+    <value>Buscando atualizações...</value>
+  </data>
+  <data name="StrFileFetchError" xml:space="preserve">
+    <value>Algo deu errado ao buscar arquivos para download. Buscando novamente...</value>
+  </data>
+  <data name="StrFileFetchFatalError" xml:space="preserve">
+    <value>Houve uma falha ao tentar buscar informações de atualização do servidor! Vamos tentar reconectar. Se o problema persistir nos informe para que possamos corrigir ASAP.</value>
+  </data>
+  <data name="StrFps" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="StrFramesPerSecond" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="StrHandsakeUpdater" xml:space="preserve">
+    <value>Autorizando cliente...</value>
+  </data>
+  <data name="StrHashConfirmationFailed" xml:space="preserve">
+    <value>Erro na confirmação de hash do cliente. Por favor, abra o cliente novamente.</value>
+  </data>
+  <data name="StrIllegalActionMessage" xml:space="preserve">
+    <value>Uma atividade ilegal foi identificada em seu sistema. Todos os seus clientes serão encerrados!</value>
+  </data>
+  <data name="StrIllegalActionTitle" xml:space="preserve">
+    <value>Atividade Ilegal!</value>
+  </data>
+  <data name="StrIncompatibleWindowsVersion" xml:space="preserve">
+    <value>O jogo pode não funcionar corretamente com a versão do Windows que você está usando! Busque suporte nos fóruns da comunidade.</value>
+  </data>
+  <data name="StrInstallCouldNotStartProcess" xml:space="preserve">
+    <value>O processo não pôde ser iniciado. Isso pode indicar algum problema com o seu antivirus. Por favor, adicione a pasta do cliente como exceção e tente novamente.</value>
+  </data>
+  <data name="StrInstallInvalidExt" xml:space="preserve">
+    <value>Erro! Arquivo com extensão '{0}' não suportado. Reporte ao administrador.</value>
+  </data>
+  <data name="StrInstallIOException" xml:space="preserve">
+    <value>Ocorreu um erro ao instalar a atualização "{0}". Isso pode estar relacionado ao seu Antivirus ou Windows Defender. Para ter mais certeza, envie para a Administração a mensagem da exceção: {0}.</value>
+  </data>
+  <data name="StrInstallSuccess" xml:space="preserve">
+    <value>Atualizações instaladas com sucesso.</value>
+  </data>
+  <data name="StrInstallUpdate" xml:space="preserve">
+    <value>Instalando atualização "{0}". Por favor aguarde...</value>
+  </data>
+  <data name="StrInstallUpdateEx" xml:space="preserve">
+    <value>Instalando atualização "{0}". Extraindo arquivo: [{2}/{3}] {1}</value>
+  </data>
+  <data name="StrInstallUpdates" xml:space="preserve">
+    <value>Preparando para instalar as atualizações...</value>
+  </data>
+  <data name="StrInvalidClientInformation" xml:space="preserve">
+    <value>Houve um erro na validação do seu cliente. Tentaremos nos conectar novamente em breve.</value>
+  </data>
+  <data name="StrInvalidOS" xml:space="preserve">
+    <value>O recurso inválido não está disponível em seu sistema operacional.</value>
+  </data>
+  <data name="StrLabelCalculatingDownloadAmount" xml:space="preserve">
+    <value>Será realizado o download de {0} atualizações totalizando {1}.</value>
+  </data>
+  <data name="StrLabelDownloading" xml:space="preserve">
+    <value>Baixando atualização {0} de {1}. Progresso: {2}/{3} ({4})</value>
+  </data>
+  <data name="StrLoading" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="StrLocalPing" xml:space="preserve">
+    <value>Ping: &lt;1ms</value>
+  </data>
+  <data name="StrLoginSuccessfull" xml:space="preserve">
+    <value>Autorização concluída com sucesso!</value>
+  </data>
+  <data name="StrNewUpdateMessage" xml:space="preserve">
+    <value>Há uma nova atualização disponível. Ela será aplicada assim que você fechar todos os clientes em aberto.</value>
+  </data>
+  <data name="StrNewUpdateNotification" xml:space="preserve">
+    <value>Há uma nova atualização disponível! Por favor, feche os clientes ativos e deixe-nos manter o seu jogo atualizado. Deseja atualizar agora?</value>
+  </data>
+  <data name="StrNewUrgentUpdateNotification" xml:space="preserve">
+    <value>Há uma atualização urgente disponível! Feche todos os clientes abertos para evitar a perda de dados ou seremos forçados a fechar por você.</value>
+  </data>
+  <data name="StrNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="StrPatchExecutionError" xml:space="preserve">
+    <value>Não foi possível instalar o patch {0}. Por favor baixe o arquivo manualmente no site!\r\nErro: {1}</value>
+  </data>
+  <data name="StrPlay" xml:space="preserve">
+    <value>Jogar</value>
+  </data>
+  <data name="StrPreparingToDownload" xml:space="preserve">
+    <value>Preparando para baixar o arquivo '{0}'.</value>
+  </data>
+  <data name="StrReadMore" xml:space="preserve">
+    <value>Leia mais...</value>
+  </data>
+  <data name="StrReadyToLogin" xml:space="preserve">
+    <value>Seu cliente está atualizado e pronto para jogar!</value>
+  </data>
+  <data name="StrSave" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="StrScreenSize" xml:space="preserve">
+    <value>Resolução</value>
+  </data>
+  <data name="StrServerInvalidError" xml:space="preserve">
+    <value>O servidor enviou um código de erro inválido.</value>
+  </data>
+  <data name="StrSettings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="StrSettingsNotLoaded" xml:space="preserve">
+    <value>Você optou por não configurar o cliente. Isto pode causar erros de inicialização no jogo e pode impedir que você consiga ter uma experiência completa. Antes de jogar, entre na opção de Configurações e defina as melhores opções para você. Caso tenha dúvidas, pressione para usar as opções padrão e grave.</value>
+  </data>
+  <data name="StrTermsOfPrivacy" xml:space="preserve">
+    <value>Termos de Privacidade</value>
+  </data>
+  <data name="StrTermsOfService" xml:space="preserve">
+    <value>Termos de Serviço</value>
+  </data>
+  <data name="StrTitlePanel" xml:space="preserve">
+    <value>World Conquer Online - Launcher (Beta)</value>
+  </data>
+  <data name="StrToDefault" xml:space="preserve">
+    <value>Usar Padrão</value>
+  </data>
+  <data name="StrUnauthorizedConquer" xml:space="preserve">
+    <value>Você não está autorizado a se conectar por manter instâncias do jogo aberto enquanto atualiza. Se estiver jogando outro servidor, por gentileza feche-o e abra-o novamente após a atualização.</value>
+  </data>
+  <data name="StrUpdateComplete" xml:space="preserve">
+    <value>Seu cliente está atualizado!</value>
+  </data>
+  <data name="StrVersion" xml:space="preserve">
+    <value>Versão do jogo: {0:0000} Cliente: {1:00000}</value>
+  </data>
+  <data name="StrVersionNotFound" xml:space="preserve">
+    <value>O arquivo "Version.dat" não foi encontrado, não será possível atualizar o cliente corretamente.</value>
+  </data>
+  <data name="StrWindows10Alert" xml:space="preserve">
+    <value>Atenção! Foi detectada uma versão com Windows Defender no seu sistema. O Windows Defender pode interferir no carregamento dos módulos de segurança de nosso servidor. Você pode obter mais informações visitando nosso website. Deseja visitar a URL para saber como tratar erros como este?</value>
+  </data>
+  <data name="StrWindows10AlertTitle" xml:space="preserve">
+    <value>Windows 8 ou Superior</value>
+  </data>
+  <data name="StrWindows7Alert" xml:space="preserve">
+    <value>Atenção! Foi detectado que você está usando uma versão não suportada oficialmente. Isto pode acarretar em problemas para se conectar com o jogo principalmente se você tiver um anti-virus. Busque por ajuda nos fóruns da comunidade caso algo não funcione como o desejado.</value>
+  </data>
+  <data name="StrWindows7AlertTitle" xml:space="preserve">
+    <value>Windows 7 detectado</value>
+  </data>
+  <data name="StrWindowsDefenderAlert" xml:space="preserve">
+    <value>Atenção! Foi detectado em seu sistema que você tem um anti-vírus ativo. Para que seu cliente consiga ser executado normalmente podemos adicionar uma exceção a nossa pasta de trabalho para que ele não interrompa as atividades do cliente e para isso precisamos da sua autorização. Para mais informações clique no link abaixo. Não executar o script pode fazer com que o Windows Defender impeça o cliente de funcionar. Deseja executar o script?</value>
+  </data>
+  <data name="StrWindowsDefenderAlertTitle" xml:space="preserve">
+    <value>Windows Defender detectado!</value>
+  </data>
+  <data name="StrYes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+</root>

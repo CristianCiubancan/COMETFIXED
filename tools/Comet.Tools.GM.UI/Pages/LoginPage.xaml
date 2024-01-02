@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Comet.Tools.GM.UI.LoginPage"
+             BackgroundColor="{StaticResource Background}">
+    <Grid>
+
+        <StackLayout Margin="40">
+            <Image Source="logo.png" WidthRequest="100" HeightRequest="60" />
+
+            <StackLayout Margin="0, 40">
+                <Label Text="Game Master Center" FontSize="32" HorizontalTextAlignment="Center" TextColor="{DynamicResource Light}" />
+                <Label Text="Sign In to continue" FontSize="16" HorizontalTextAlignment="Center" TextColor="{DynamicResource Light}" />
+            </StackLayout>
+
+            <StackLayout Margin="0, 20" WidthRequest="400">
+
+                <Label Text="User Name" FontSize="16" HorizontalTextAlignment="Center" TextColor="{DynamicResource Light}" />
+                <Grid>
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="0" />
+                    <Entry TextColor="{DynamicResource Dark}" BackgroundColor="Transparent" Margin="5,0" 
+                           Placeholder="Enter Username" PlaceholderColor="{DynamicResource LightGray}"></Entry>
+                </Grid>
+
+                <Label Text="Password" FontSize="16" HorizontalTextAlignment="Center" TextColor="{DynamicResource Light}" />
+                <Grid>
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="0" />
+                    <Entry TextColor="{DynamicResource Dark}" BackgroundColor="Transparent" Margin="5,0" IsPassword="True" 
+                           Placeholder="Enter Password" PlaceholderColor="{DynamicResource LightGray}"></Entry>
+                </Grid>
+
+                <Button CornerRadius="0" Margin="0,15" BackgroundColor="{StaticResource Dark}" Text="Sign In"
+                        TextColor="{StaticResource Primary}"></Button>
+
+                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
+
+                    <Label TextColor="LightGray" FontSize="16" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
+                           Text="Forgot Password?" />
+
+                    <Label TextColor="LightGray" FontSize="16" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" 
+                           Text="Official Website" />
+
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,14 @@
+{
+  "Database": {
+    "Hostname": "localhost",
+    "Schema": "new_account_zf",
+    "Username": "root",
+    "Password": "1234",
+    "Port": 3306
+  },
+  "Network": {
+    "IPAddress": "0.0.0.0",
+    "Port": 9528,
+    "MaxConn": 10000
+  }
+}

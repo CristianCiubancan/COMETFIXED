@@ -1,0 +1,54 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+
+workflow:
+  rules:
+    - when: always
+
+services:
+  - mysql:5.7
+
+variables:
+  MYSQL_ROOT_PASSWORD: "password"
+
+stages:
+  - build
+  - sonarqube
+
+before_script:
+  - apt-get update && apt-get install -y git curl libmcrypt-dev default-mysql-client
+  - mysql --user=root --password="$MYSQL_ROOT_PASSWORD" --host=mysql < sql/comet.account.sql
+  - dotnet restore
+
+build:
+  stage: build
+  script:
+    - dotnet build
+
+sonarqube:
+  stage: sonarqube
+  image: mcr.microsoft.com/dotnet/core/sdk:latest
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+    GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - .sonar/cache
+  script: 
+      - "apt-get update"
+      - "apt-get install --yes openjdk-11-jre"
+      - "wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb"
+      - "dpkg -i packages-microsoft-prod.deb"
+      - "rm packages-microsoft-prod.deb"
+      - "apt-get update"
+      - "apt-get install -y apt-transport-https"
+      - "apt-get update"
+      - "apt-get install -y dotnet-sdk-6.0"
+      - "dotnet tool install --global dotnet-sonarscanner"
+      - "export PATH=\"$PATH:$HOME/.dotnet/tools\""
+      - "dotnet sonarscanner begin /k:\"$SONAR_PROJECT_UID\" /d:sonar.login=\"$SONAR_TOKEN\" /d:\"sonar.host.url=$SONAR_HOST_URL\" /v:\"$BUILD_NUMBER\""
+      - "dotnet build"
+      - "dotnet sonarscanner end /d:sonar.login=\"$SONAR_TOKEN\""
+  allow_failure: true
+  only:
+    - main # or the name of your main branch

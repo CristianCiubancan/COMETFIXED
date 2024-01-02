@@ -1,0 +1,510 @@
+09:52:20.180 [Info      ] -   Comet: Account Server
+09:52:20.206 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:52:20.210 [Info      ] -   All Rights Reserved
+09:52:20.444 [Info      ] - Initializing server...
+09:52:31.850 [Info      ] -   Comet: Account Server
+09:52:31.873 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:52:31.877 [Info      ] -   All Rights Reserved
+09:52:32.043 [Info      ] - Initializing server...
+09:54:20.617 [Info      ] -   Comet: Account Server
+09:54:20.643 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:54:20.647 [Info      ] -   All Rights Reserved
+09:54:46.056 [Info      ] -   Comet: Account Server
+09:54:46.081 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:54:46.084 [Info      ] -   All Rights Reserved
+09:54:46.221 [Info      ] - Initializing server...
+09:56:06.752 [Info      ] -   Comet: Account Server
+09:56:06.776 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:56:06.779 [Info      ] -   All Rights Reserved
+09:56:06.919 [Info      ] - Initializing server...
+09:58:32.131 [Info      ] -   Comet: Account Server
+09:58:32.156 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:58:32.160 [Info      ] -   All Rights Reserved
+09:58:32.302 [Info      ] - Initializing server...
+09:58:32.674 [Exception ] - MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 363
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 94
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 124
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 915
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 406
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 369
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Comet.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Database\ServerDbContext.cs:line 24
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CanConnect()
+   at Comet.Account.Database.ServerDbContext.Ping() in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Database\Context.cs:line 48
+09:58:32.675 [Info      ] - Invalid database configuration
+09:59:04.206 [Info      ] -   Comet: Account Server
+09:59:04.229 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+09:59:04.233 [Info      ] -   All Rights Reserved
+09:59:04.370 [Info      ] - Initializing server...
+09:59:04.735 [Exception ] - MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 363
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 94
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 124
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 915
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 406
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 369
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Comet.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Database\ServerDbContext.cs:line 24
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CanConnect()
+   at Comet.Account.Database.ServerDbContext.Ping() in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Database\Context.cs:line 48
+09:59:04.736 [Info      ] - Invalid database configuration
+10:03:48.315 [Info      ] -   Comet: Account Server
+10:03:48.339 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:03:48.343 [Info      ] -   All Rights Reserved
+10:03:48.490 [Info      ] - Initializing server...
+10:03:48.879 [Exception ] - MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 363
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 94
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 124
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 915
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 406
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 369
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Comet.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Database\ServerDbContext.cs:line 24
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CanConnect()
+   at Comet.Account.Database.ServerDbContext.Ping() in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Database\Context.cs:line 48
+10:03:48.880 [Info      ] - Invalid database configuration
+10:08:53.699 [Info      ] -   Comet: Account Server
+10:08:53.724 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:08:53.728 [Info      ] -   All Rights Reserved
+10:08:53.886 [Info      ] - Initializing server...
+10:08:54.286 [Exception ] - MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 363
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 94
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 124
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 915
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 406
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 369
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Comet.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Database\ServerDbContext.cs:line 24
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CanConnect()
+   at Comet.Account.Database.ServerDbContext.Ping() in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Database\Context.cs:line 48
+10:08:54.287 [Info      ] - Invalid database configuration
+10:40:43.514 [Info      ] -   Comet: Account Server
+10:40:43.541 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:40:43.545 [Info      ] -   All Rights Reserved
+10:40:43.712 [Info      ] - Initializing server...
+10:40:45.541 [Info      ] - Launching realm server listener...
+10:40:45.552 [Info      ] - Listening for new connections
+10:40:45.555 [Info      ] - Timer [System Thread] has started
+10:40:45.556 [Info      ] - Listening for new connections
+10:41:15.567 [Info      ] -   Comet: Account Server
+10:41:15.592 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:41:15.596 [Info      ] -   All Rights Reserved
+10:41:15.710 [Info      ] - Initializing server...
+10:41:17.386 [Info      ] - Launching realm server listener...
+10:41:17.397 [Info      ] - Listening for new connections
+10:41:17.400 [Info      ] - Timer [System Thread] has started
+10:41:17.401 [Info      ] - Listening for new connections
+10:41:28.760 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:28.823 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:41:33.810 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:33.844 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:41:38.898 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:38.916 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:41:43.936 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:43.955 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:41:48.993 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:49.003 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:41:54.050 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:41:54.067 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:42:53.004 [Info      ] -   Comet: Account Server
+10:42:53.037 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:42:53.043 [Info      ] -   All Rights Reserved
+10:42:53.206 [Info      ] - Initializing server...
+10:42:54.927 [Info      ] - Launching realm server listener...
+10:42:54.939 [Info      ] - Listening for new connections
+10:42:54.943 [Info      ] - Timer [System Thread] has started
+10:42:54.944 [Info      ] - Listening for new connections
+10:43:06.392 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:06.450 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:11.446 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:11.464 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:16.500 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:16.516 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:21.545 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:21.563 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:26.616 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:26.634 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:31.656 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:31.674 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:36.734 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:36.750 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:41.805 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:41.817 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:46.880 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:46.897 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:51.959 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:51.975 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:43:57.043 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:43:57.062 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:02.119 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:02.131 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:07.187 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:07.207 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:12.250 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:12.266 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:17.314 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:17.336 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:21.353 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:21.369 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:26.417 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:26.434 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:31.477 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:31.490 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:36.514 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:36.540 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:41.574 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:44:41.590 [Exception ] - System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 44
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:44:46.646 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:44:51.700 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:44:56.779 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:01.837 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:06.880 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:11.944 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:17.006 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:22.069 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:27.136 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:32.221 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:37.295 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:41.355 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:46.420 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:51.474 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:45:56.535 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:01.603 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:06.667 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:11.750 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:16.830 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:21.891 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:26.973 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:32.040 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:37.115 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:42.164 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:47.217 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:52.270 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:46:57.359 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:47:02.441 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:47:07.517 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:47:12.590 [Info      ] - Login denied due to excessive login attempts [IP: 192.168.0.106]
+10:47:20.056 [Info      ] -   Comet: Account Server
+10:47:20.088 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:47:20.092 [Info      ] -   All Rights Reserved
+10:47:40.781 [Info      ] -   Comet: Account Server
+10:47:40.806 [Info      ] -   Copyright 2018-2024 Gareth Jensen "Spirited"
+10:47:40.809 [Info      ] -   All Rights Reserved
+10:47:40.964 [Info      ] - Initializing server...
+10:47:42.692 [Info      ] - Launching realm server listener...
+10:47:42.704 [Info      ] - Listening for new connections
+10:47:42.707 [Info      ] - Timer [System Thread] has started
+10:47:42.708 [Info      ] - Listening for new connections
+10:47:54.510 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:47:54.565 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:47:59.549 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:47:59.570 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:48:04.595 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:48:04.608 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:48:09.674 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:49:50.151 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:49:50.556 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:49:50.566 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:49:55.601 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:49:55.617 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:00.683 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:00.699 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:05.718 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:05.739 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:10.786 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:10.803 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:15.819 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:15.836 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:20.879 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:20.894 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38
+10:50:25.946 [Info      ] - Accepting connection from server on [192.168.0.106].
+10:50:25.963 [Exception ] - System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.set_Key(Byte[] value)
+   at Comet.Network.Security.AesCipherHelper.Decrypt(Byte[] key, String message) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Network\Security\AesCipherHelper.cs:line 37
+   at Comet.Account.Packets.MsgAccServerExchange.ProcessAsync(GameServer client) in C:\Users\CRSGRS\Desktop\CONQUER_5187\COMETFIXED\src\Comet.Account\Packets\MsgAccServerExchange.cs:line 38

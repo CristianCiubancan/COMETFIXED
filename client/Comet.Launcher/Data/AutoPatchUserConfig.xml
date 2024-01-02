@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <FramesPerSecond>40</FramesPerSecond>
+  <Resolution>
+    <Width>1024</Width>
+    <Height>768</Height>
+  </Resolution>
+</Config>
